@@ -627,3 +627,39 @@ a {
 .news-item__more:hover {
     color: #2e80ce;
 }
+
+/* Appointment */
+.appointment {
+    margin-bottom: 170px;
+}
+
+.appointment__inner {
+    padding: 100px 0;
+    text-align: center;
+    background: #f6fbff;
+}
+
+.appointment__heading {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.appointment__heading::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+}
+
+.appointment__desc {
+    max-width: 617px;
+    font-size: 1.6rem;
+    margin: 18px auto 0;
+    line-height: 1.75;
+}
